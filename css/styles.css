@@ -140,6 +140,7 @@ header {
 .top img {
   width: 50px;
   object-fit: contain;
+  border-radius: 10px;
 }
 
 .rolename {
@@ -155,6 +156,7 @@ header {
   overflow: hidden;
   font-size: 18px;
   color: #96939b;
+  flex-grow: 1;
 }
 
 .buttons {
@@ -179,4 +181,5 @@ header {
 .apply-now {
   color: white;
   background: #3060ff;
+  margin-right: 15px;
 }
